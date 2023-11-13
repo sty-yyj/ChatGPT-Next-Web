@@ -12,6 +12,7 @@ import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 import DragIcon from "../icons/drag.svg";
+import XiaoHui44 from "../icons/xiaohui_44.svg"
 
 import Locale from "../locales";
 
@@ -155,13 +156,13 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          实验小助手 🤖 (Lab and ...)
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          帮你解答实验室的疑惑~
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <XiaoHui44 />
         </div>
       </div>
 
