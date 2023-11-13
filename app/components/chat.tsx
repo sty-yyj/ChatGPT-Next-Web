@@ -1127,8 +1127,8 @@ function _Chat() {
           inputRef.current?.blur();
           setAutoScroll(false);
         }}
+        style={{ backgroundImage: 'url(""https://z1.ax1x.com/2023/11/13/piJlgl8.jpg")', backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat' }}
       >
-        <a href="https://imgse.com/i/piJlgl8"><img src="https://z1.ax1x.com/2023/11/13/piJlgl8.jpg" alt="piJlgl8.jpg"width="520" height="520" /></a>
         {messages.map((message, i) => {
           const isUser = message.role === "user";
           const isContext = i < context.length;
