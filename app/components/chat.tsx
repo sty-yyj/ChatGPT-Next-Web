@@ -1128,6 +1128,7 @@ function _Chat() {
           setAutoScroll(false);
         }}
       >
+        <img src="../icons/xiaohui.jpg" alt="校徽" width="520" height="520"></img>
         {messages.map((message, i) => {
           const isUser = message.role === "user";
           const isContext = i < context.length;
